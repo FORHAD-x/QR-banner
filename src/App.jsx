@@ -1,4 +1,5 @@
-import { BsGlobe } from "react-icons/bs"; 
+import { AiOutlineShoppingCart } from "react-icons/ai"; 
+import { BsGlobe, BsWhatsapp } from "react-icons/bs"; 
 import { BsFacebook, BsInstagram, BsTiktok } from "react-icons/bs"; 
 import { FaExternalLinkAlt, FaRegCopy } from "react-icons/fa";
 import { useState } from "react";
@@ -31,8 +32,15 @@ const socialLinks = [
     name: "Website",
     username: "আমাদের ওয়েবসাইট ভিজিট করুন",
     url: "https://forrabix.com",
-    color: "#16A34A",
-    icon: <BsGlobe />,
+    color: "#627f7a",
+    icon: <AiOutlineShoppingCart />,
+  },
+  {
+    name: "whatsapp",
+    username: "আমাদের হোয়াটসঅ্যাপ যুক্ত থাকতে ফলো করুন।",
+    url: "https://wa.me/+8801873651590",
+    color: "#22D366",
+    icon: <BsWhatsapp />,
   },
   {
     name: "TikTok",
