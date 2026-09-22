@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.logo-glow {
+  background: linear-gradient(
+    135deg,
+    #b5f6fa,
+    #b0f5d2,
+    #b5d7ff
+  );
+  box-shadow:
+    0 12px 35px rgba(81, 190, 222, 0.2),
+    inset 0 2px 12px rgba(255, 255, 255, 0.8);
+}
+
+.logo-text {
+  background: linear-gradient(
+    135deg,
+    #80e5f5,
+    #7fe8bd,
+    #4a7dc9
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 5px 5px #00000020);
+}
+
+.social-card {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .logo-glow {
+    width: 110px;
+    height: 110px;
+  }
+
+  .logo-text {
+    font-size: 72px;
+  }
+}
+ 
+/* @import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+} */
